@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+*$py.class
+
+docs/site/
+
+archive/
+
+logs/**/*.log
+
+data/**/*.parquet
+data/**/*.csv
+data/**/*.xlsx
+
+!data/raw/class_lists/classlist_demo.csv
+!data/raw/rubrics/rubric_demo.csv
+!data/processed/classlist_demo - rubric_demo - marking.xlsx
